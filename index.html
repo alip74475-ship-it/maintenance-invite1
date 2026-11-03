@@ -1,0 +1,882 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071522">
+<meta name="description" content="دعوت‌نامه تعاملی دوره نگهداری و تعمیرات، چهارشنبه ۱۳ آبان ۱۴۰۵، ساعت ۸ تا ۱۶">
+<meta property="og:type" content="website">
+<meta property="og:title" content="دعوت‌نامه ویژه | دوره نگهداری و تعمیرات">
+<meta property="og:description" content="چهارشنبه ۱۳ آبان ۱۴۰۵ | ۸ تا ۱۶ | مؤسسه آموزشی نتاکو">
+<!--
+پس از انتشار، آدرس واقعی HTTPS را جایگزین کنید:
+<meta property="og:url" content="https://YOUR-SITE.example/">
+<meta property="og:image" content="https://YOUR-SITE.example/cover.jpg">
+-->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<title>دعوت‌نامه تعاملی | دوره نگهداری و تعمیرات</title>
+<style>
+:root{
+ --bg:#071522;--cyan:#49d8f6;--gold:#ffd17d;
+ --green:#61e5ad;--red:#ff687b;--white:#f3faff;
+ --muted:#a9bfce;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--white);font-family:Tahoma,Arial,sans-serif}
+button,a,input{font:inherit}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.app{
+ position:relative;isolation:isolate;overflow:hidden;
+ max-width:620px;min-height:100svh;margin:auto;
+ padding:18px 20px 28px;display:flex;flex-direction:column;
+ background:radial-gradient(ellipse at 50% 18%,#19415e,#091a2b 60%,#061320)
+}
+.app:before{
+ content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+ background-image:linear-gradient(#49d8f609 1px,transparent 1px),linear-gradient(90deg,#49d8f609 1px,transparent 1px);
+ background-size:30px 30px
+}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.brand{display:flex;align-items:center;gap:9px;font-size:12px;font-weight:bold}
+.brand-icon{
+ width:39px;height:39px;border:1px solid #49d8f680;
+ border-radius:12px;display:grid;place-items:center;color:var(--cyan);font-size:25px
+}
+.sound-btn{border:1px solid #ffffff30;background:#ffffff10;color:white;border-radius:30px;padding:10px 12px;font-size:11px}
+.progress{display:flex;gap:6px;margin:20px 0}
+.progress span{height:4px;flex:1;border-radius:6px;background:#ffffff25}
+.progress span.active{background:var(--cyan);box-shadow:0 0 10px #49d8f680}
+.screen{
+ display:none;min-height:550px;flex:1;flex-direction:column;
+ align-items:center;justify-content:center;text-align:center;
+ animation:enter .55s ease both
+}
+.screen.active{display:flex}
+@keyframes enter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.kicker{font:11px Arial,sans-serif;color:var(--cyan);letter-spacing:2px;margin:12px 0}
+h1{font-size:clamp(25px,6vw,35px);line-height:1.7;margin:10px 0}
+h2{font-size:clamp(21px,5vw,27px);line-height:1.75;margin:10px 0}
+p{color:var(--muted);font-size:13px;line-height:2;margin:9px 0}
+.gold{color:var(--gold)}
+.btn{
+ width:100%;margin-top:17px;padding:16px 13px;border:0;border-radius:14px;
+ font-size:14px;font-weight:bold;color:#062334;
+ background:linear-gradient(110deg,#7ce8fa,#20b0dd);
+ box-shadow:0 9px 28px #20b0dd30;transition:transform .15s
+}
+.btn:active{transform:scale(.975)}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn.alt{margin-top:10px;background:#ffffff0d;border:1px solid #ffffff30;color:white;box-shadow:none}
+.footer{margin-top:17px;font-size:11px;line-height:2;color:#7d9bad}
+.gear-stage{
+ width:250px;height:240px;display:grid;place-items:center;
+ position:relative;margin:10px 0 23px;perspective:650px
+}
+.gear-ring{
+ width:232px;height:232px;position:absolute;border:1px dashed #49d8f670;
+ border-radius:50%;animation:spin 27s linear infinite
+}
+.gear-ring:after{
+ content:"";position:absolute;top:24px;left:27px;
+ width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 17px var(--cyan)
+}
+.gear-ring2{
+ width:196px;height:196px;position:absolute;border-radius:50%;
+ border:1px solid #49d8f630;box-shadow:0 0 43px #49d8f61d
+}
+.gear-body{width:173px;height:173px;transform:rotateX(24deg) rotateY(-12deg);filter:drop-shadow(0 17px 12px #000a)}
+.gear-svg{width:100%;height:100%;animation:spin 8s linear infinite}
+.small-gear{position:absolute;width:65px;height:65px;right:5px;bottom:7px;animation:reverse 4s linear infinite}
+@keyframes spin{to{rotate:360deg}}
+@keyframes reverse{to{transform:rotate(-360deg)}}
+.scan{position:absolute;bottom:-12px;font:10px Arial,sans-serif;letter-spacing:2px;color:#8bafc5}
+.volume-box{
+ width:100%;margin-top:15px;padding:13px 15px;
+ background:#ffffff0b;border:1px solid #ffffff20;border-radius:12px
+}
+.volume-box label{display:flex;justify-content:space-between;margin-bottom:10px;color:#c6d9e7;font-size:12px}
+.volume-box input{width:100%;accent-color:var(--cyan)}
+.volume-box output{color:var(--gold)}
+.alert{
+ padding:9px 15px;border-radius:30px;color:#ff8b9a;background:#ff687b16;
+ border:1px solid #ff687b65;font-size:12px
+}
+.machine{
+ width:100%;margin:22px 0;padding:20px;background:linear-gradient(145deg,#234059,#0b1e2d);
+ border:1px solid #42687e;border-radius:18px;box-shadow:inset 0 0 30px #0007
+}
+.machine-top{display:flex;justify-content:space-between;align-items:center;direction:ltr;color:#a7bccc;font:11px Arial,sans-serif}
+.led{width:12px;height:12px;border-radius:50%;background:var(--red);box-shadow:0 0 17px var(--red);animation:blink .7s infinite alternate}
+@keyframes blink{to{opacity:.15}}
+.wave{height:90px;display:flex;align-items:center;justify-content:center;gap:6px}
+.wave i{width:5px;height:18px;border-radius:5px;background:var(--red);animation:wave .9s infinite alternate}
+.wave i:nth-child(2n){animation-delay:-.3s}
+.wave i:nth-child(3n){animation-delay:-.6s}
+@keyframes wave{to{height:67px}}
+.error{font:11px Arial,sans-serif;color:#ff8b99;letter-spacing:1px}
+.choices{width:100%;display:grid;gap:11px;margin-top:17px}
+.choice{
+ width:100%;display:flex;align-items:center;gap:12px;text-align:right;
+ padding:16px 13px;background:#17344b;border:1px solid #395d74;
+ border-radius:14px;color:white;font-size:13px;line-height:2
+}
+.choice:hover{background:#20465b;border-color:var(--cyan)}
+.choice b{flex:0 0 32px;height:32px;display:grid;place-items:center;background:#49d8f617;border-radius:9px;color:var(--cyan)}
+.result-icon{font-size:50px;margin:14px 0}
+.score-ring{
+ width:165px;height:165px;border-radius:50%;margin:15px 0;
+ position:relative;display:grid;place-items:center;
+ background:conic-gradient(var(--scoreColor,var(--cyan)) var(--angle,0deg),#ffffff17 0)
+}
+.score-ring:before{content:"";position:absolute;inset:11px;border-radius:50%;background:#0c2335}
+.score-inner{position:relative}
+.score-inner strong{display:block;color:var(--scoreColor,var(--cyan));font:700 47px Arial}
+.score-inner small{color:var(--muted);font-size:11px}
+.feedback{
+ width:100%;padding:18px;background:#ffffff0d;border:1px solid #ffffff22;
+ border-radius:14px;color:#cbdbe7;font-size:13px;line-height:2.2
+}
+.invitation{
+ width:100%;text-align:right;margin-top:19px;padding:21px 17px;
+ border:1px solid #4b899b;border-radius:18px;
+ background:linear-gradient(145deg,#1b3a51,#0b1d2c)
+}
+.invite-label{color:var(--gold);font-size:11px}
+.company-section{
+ padding:15px 0;text-align:center;
+ border-top:1px solid #ffffff1c;border-bottom:1px solid #ffffff1c
+}
+.company-section small{display:block;color:#cbdbe7;font-size:12px;margin-bottom:11px}
+.company-highlight{
+ display:block;position:relative;overflow:hidden;padding:14px 10px;
+ border:1px solid #bc934e;border-radius:13px;
+ background:linear-gradient(120deg,#142c3c,#303e43,#142c3c);
+ color:#ffda8c;font-size:clamp(15px,4vw,19px);font-weight:bold;line-height:2;
+ text-align:center;text-shadow:0 0 9px #f5be6680;
+ animation:companyGlow 3s ease-in-out infinite
+}
+.company-highlight:after{
+ content:"";position:absolute;left:-70%;top:-60%;
+ width:32%;height:220%;transform:rotate(25deg);
+ background:linear-gradient(90deg,transparent,#ffffff85,transparent);
+ pointer-events:none;animation:shine 4s ease-in-out infinite
+}
+@keyframes companyGlow{
+ 0%,100%{box-shadow:0 0 6px #edbc6028;border-color:#ae8545}
+ 50%{box-shadow:0 0 28px #edbc6080;border-color:#ffe1a2}
+}
+@keyframes shine{0%,20%{left:-70%}65%,100%{left:140%}}
+.organizer{padding:15px 0 3px;color:#c7d8e5;font-size:12px;line-height:2.4}
+.organizer strong{color:white}
+.detail{
+ display:flex;align-items:flex-start;gap:12px;
+ margin-top:17px;font-size:12px;line-height:2.1;color:#c8d9e5
+}
+.detail strong{display:block;color:white}
+.detail-icon{
+ width:34px;height:34px;flex:0 0 34px;display:grid;place-items:center;
+ color:var(--cyan);background:#49d8f617;border-radius:9px;font-size:19px
+}
+.credit{
+ width:100%;margin-top:24px;padding:21px 15px;text-align:center;
+ border:1px solid #4b687c;border-radius:15px;
+ background:linear-gradient(140deg,#132d41,#091a2a)
+}
+.credit-label{font-size:12px;line-height:2;color:#b0c6d5}
+.credit-name{
+ display:block;margin:10px 0;color:var(--gold);font-size:21px;
+ font-weight:bold;text-shadow:0 0 12px #ffd17d50
+}
+.credit-role{font-size:12px;line-height:2;color:#d8e8f1}
+.credit-en{font:10px Arial;letter-spacing:1px;margin-top:13px;color:#819aac}
+.modal{
+ display:none;position:fixed;inset:0;z-index:100;
+ align-items:center;justify-content:center;padding:18px;background:#010811df
+}
+.modal.open{display:flex}
+.modal-card{
+ width:min(100%,480px);max-height:90svh;overflow-y:auto;
+ padding:23px 19px;text-align:center;background:#102a3e;
+ border:1px solid #4b8b9e;border-radius:20px;color:white
+}
+.map-options{display:grid;gap:10px;margin-top:18px}
+.map-link{
+ display:flex;justify-content:space-between;align-items:center;
+ padding:16px;gap:12px;background:#193c53;border:1px solid #467188;
+ border-radius:13px;text-decoration:none;color:white;font-size:13px
+}
+.map-link:hover{border-color:var(--cyan)}
+.map-note{margin-top:15px;color:#b2c8d7;font-size:11px;line-height:2.1}
+.admin-panel{
+ display:none;max-width:620px;margin:20px auto;padding:19px;
+ border:1px solid #668ca1;border-radius:16px;background:#122c41;color:#fff
+}
+.admin-panel.show{display:block}
+.admin-panel p{font-size:13px}
+@media(max-width:390px){
+ .app{padding:15px}
+ .gear-stage{transform:scale(.89);margin:-3px 0}
+ .screen{min-height:530px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+
+<body>
+<main class="app">
+<header class="top">
+ <div class="brand">
+  <span class="brand-icon">⚙</span>
+  <span>NETACO | آموزش تخصصی</span>
+ </div>
+ <button class="sound-btn" id="soundBtn" type="button">🔊 صدا روشن</button>
+</header>
+<div class="progress" id="progress">
+ <span class="active"></span><span></span><span></span><span></span>
+</div>
+
+<section class="screen active" id="intro">
+ <div class="kicker">INDUSTRIAL EXPERIENCE</div>
+ <div class="gear-stage">
+  <div class="gear-ring"></div><div class="gear-ring2"></div>
+  <div class="gear-body">
+   <svg class="gear-svg" viewBox="0 0 200 200" aria-label="چرخ‌دنده صنعتی متحرک">
+    <defs>
+     <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5fcff"/>
+      <stop offset=".25" stop-color="#5b8298"/>
+      <stop offset=".5" stop-color="#e1f3fb"/>
+      <stop offset=".77" stop-color="#2d4f65"/>
+      <stop offset="1" stop-color="#b9dceb"/>
+     </linearGradient>
+    </defs>
+    <g transform="translate(100 100)">
+     <path id="gearPath" fill="url(#steel)" stroke="#1b3b4c" stroke-width="2"/>
+     <circle r="36" fill="#0b2639" stroke="#dff5ff" stroke-width="8"/>
+     <circle r="15" fill="#071522" stroke="#49d8f6" stroke-width="4"/>
+    </g>
+   </svg>
+  </div>
+  <svg class="small-gear" viewBox="0 0 100 100" aria-hidden="true">
+   <g transform="translate(50 50)">
+    <path id="smallPath" fill="#9ec7d8" stroke="#2b4b5d" stroke-width="2"/>
+    <circle r="14" fill="#0a2538" stroke="#dff4fd" stroke-width="5"/>
+   </g>
+  </svg>
+  <span class="scan">SYSTEM INITIALIZATION</span>
+ </div>
+ <h1>آیا برای یک<br><span class="gold">چالش واقعی صنعتی</span><br>آماده‌اید؟</h1>
+ <p>یک تجهیز متوقف می‌شود.<br>شما تصمیم می‌گیرید. آینده تولید تغییر می‌کند.</p>
+ <button class="btn" id="startBtn" type="button">فعال‌سازی سیستم و شروع چالش ←</button>
+ <div class="volume-box">
+  <label for="volume">
+   <span>شدت صدای دستگاه</span><output id="volumeValue">۶۵٪</output>
+  </label>
+  <input id="volume" type="range" min="0" max="100" value="65">
+ </div>
+ <div class="footer">تجربه تعاملی کوتاه | حدود ۴۵ ثانیه</div>
+</section>
+
+<section class="screen" id="scenario">
+ <div class="alert">⚠ هشدار بحرانی: توقف ناگهانی تجهیز</div>
+ <div class="machine">
+  <div class="machine-top">
+   <span>CRITICAL ASSET / UNIT 07</span><span class="led"></span>
+  </div>
+  <div class="wave" aria-hidden="true">
+   <i></i><i></i><i></i><i></i><i></i>
+   <i></i><i></i><i></i><i></i><i></i>
+   <i></i><i></i><i></i><i></i><i></i>
+  </div>
+  <div class="error">FAULT DETECTED — PRODUCTION STOPPED</div>
+ </div>
+ <h2>تجهیز اصلی خط تولید<br>ناگهان از کار افتاد!</h2>
+ <p>توقف تولید آغاز شده است.<br>اولین تصمیم شما چیست؟</p>
+ <div class="choices">
+  <button class="choice" data-choice="repair"><b>۱</b>سریعاً تیم تعمیرات را برای رفع خرابی اعزام می‌کنم.</button>
+  <button class="choice" data-choice="diagnose"><b>۲</b>ابتدا ایمنی را برقرار کرده و داده‌ها و علت خرابی را بررسی می‌کنم.</button>
+  <button class="choice" data-choice="backup"><b>۳</b>امکان استفاده ایمن از تجهیز جایگزین را بررسی می‌کنم.</button>
+ </div>
+ <div class="footer">یک تصمیم انتخاب کنید و نتیجه آن را ببینید.</div>
+</section>
+
+<section class="screen" id="result" aria-live="polite">
+ <div class="kicker">DECISION ANALYSIS</div>
+ <div class="result-icon" id="resultIcon">✓</div>
+ <h2 id="resultTitle">نتیجه تصمیم شما</h2>
+ <div class="score-ring" id="scoreRing">
+  <div class="score-inner">
+   <strong id="scoreValue">۰</strong>
+   <small>امتیاز آموزشی از ۱۰۰</small>
+  </div>
+ </div>
+ <div class="feedback" id="feedback"></div>
+ <p class="gold">این امتیاز جنبه آموزشی دارد و ارزیابی رسمی صلاحیت فنی نیست.</p>
+ <button class="btn" id="nextBtn" type="button">کشف آینده نگهداری و تعمیرات ←</button>
+ <button class="btn alt" id="retryBtn" type="button">انتخاب تصمیم دیگر</button>
+</section>
+
+<section class="screen" id="final">
+ <div style="font-size:57px;color:var(--gold);margin-top:14px">⚙</div>
+ <div class="kicker">YOU ARE INVITED</div>
+ <h1>آینده نگهداری و تعمیرات<br><span class="gold">از تصمیم شما آغاز می‌شود.</span></h1>
+ <p>از حضور ارزشمند شما در این دوره آموزشی استقبال می‌کنیم.</p>
+ <div class="invitation">
+  <div class="invite-label">✦ دعوت‌نامه رسمی آموزشی</div>
+  <h2>دوره نگهداری و تعمیرات</h2>
+  <div class="company-section">
+   <small>به سفارش</small>
+   <div class="company-highlight">شرکت مجتمع نگین معادن احیا</div>
+  </div>
+  <div class="organizer">
+   <strong>مجری و برگزارکننده آموزشی:</strong> مؤسسه آموزشی نتاکو<br>
+   <strong>مدرسان دوره:</strong> مدرسان تخصصی مؤسسه آموزشی نتاکو
+  </div>
+  <div class="detail">
+   <span class="detail-icon">▦</span>
+   <div><strong>تاریخ برگزاری</strong>چهارشنبه ۱۳ آبان ۱۴۰۵ (۱۴۰۵/۰۸/۱۳)</div>
+  </div>
+  <div class="detail">
+   <span class="detail-icon">◷</span>
+   <div><strong>ساعت برگزاری</strong>۰۸:۰۰ الی ۱۶:۰۰</div>
+  </div>
+  <div class="detail">
+   <span class="detail-icon">⌖</span>
+   <div>
+    <strong>نشانی</strong>
+    تهران، خیابان دکتر علی شریعتی، ابتدای بلوار صبا،
+    کوچه خلیلی، ساختمان صبا، طبقه دوم
+   </div>
+  </div>
+  <div class="detail">
+   <span class="detail-icon">▣</span>
+   <div>
+    <strong>سالن برگزاری</strong>
+    سالن اجتماعات شرکت مجتمع صنایع و معادن احیاء سپاهان
+   </div>
+  </div>
+ </div>
+ <button class="btn" id="mapBtn" type="button">📍 مسیریابی تا محل برگزاری</button>
+ <button class="btn alt" id="shareBtn" type="button">↗ اشتراک‌گذاری دعوت‌نامه</button>
+ <button class="btn alt" id="replayBtn" type="button">↻ تجربه دوباره چالش</button>
+ <div class="credit">
+  <div class="credit-label">✦ طراحی، ایده‌پردازی و ساخت دعوت‌نامه تعاملی</div>
+  <strong class="credit-name">علی پرتوی</strong>
+  <div class="credit-role">مدیر ارزیابی و عملکرد گروه معدن</div>
+  <div class="credit-en">INTERACTIVE EXPERIENCE DESIGN</div>
+ </div>
+ <div class="footer">مؤسسه آموزشی نتاکو | آموزش برای تصمیم‌گیری بهتر</div>
+</section>
+</main>
+
+<div class="modal" id="mapModal" role="dialog" aria-modal="true"
+ aria-labelledby="mapTitle" aria-hidden="true">
+ <div class="modal-card">
+  <div style="font-size:43px;color:#49d8f6">⌖</div>
+  <h2 id="mapTitle">مسیریابی تا محل برگزاری</h2>
+  <p>ساختمان صبا، کوچه خلیلی، ابتدای بلوار صبا، خیابان شریعتی، تهران</p>
+  <p>مقصد بر اساس آخرین پین تأییدشده شما تنظیم شده است.</p>
+  <div class="map-options">
+   <a class="map-link" id="googleLink" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps">
+    <span>🌐 گوگل‌مپ</span><span>مسیریابی ←</span>
+   </a>
+   <a class="map-link" id="neshanLink" target="_blank" rel="noopener noreferrer" href="https://neshan.org/maps">
+    <span>📍 نشان</span><span>نمایش مقصد ←</span>
+   </a>
+   <a class="map-link" id="baladLink" target="_blank" rel="noopener noreferrer" href="https://balad.ir">
+    <span>🧭 بلد</span><span>نمایش مقصد ←</span>
+   </a>
+  </div>
+  <p class="map-note">
+   برای محاسبه زمان رسیدن، مبدأ را در مسیریاب تعیین کنید یا اجازه دسترسی به موقعیت دستگاه بدهید.
+   در نشان و بلد ممکن است پس از بازشدن پین لازم باشد گزینه مسیریابی را انتخاب کنید.
+  </p>
+  <button class="btn alt" id="copyLocation" type="button">📋 کپی نشانی و مختصات</button>
+  <button class="btn alt" id="closeMap" type="button">بستن پنجره</button>
+ </div>
+</div>
+
+<!-- ابزار سازنده فقط با ?admin=1 دیده می‌شود -->
+<aside class="admin-panel" id="adminPanel">
+ <h2>ابزار آماده‌سازی پیش‌نمایش واتساپ</h2>
+ <p>
+  روی دکمه زیر بزنید تا تصویر اختصاصی ۱۲۰۰×۶۳۰ پیکسل
+  با عنوان دوره، تاریخ و نام دو مجموعه ساخته و دانلود شود.
+  نام فایل خروجی cover.jpg خواهد بود.
+ </p>
+ <button class="btn" id="downloadCover" type="button">دانلود تصویر cover.jpg</button>
+ <p id="adminStatus" role="status"></p>
+</aside>
+
+<script>
+"use strict";
+
+const CONFIG={
+ title:"دوره نگهداری و تعمیرات",
+ client:"شرکت مجتمع نگین معادن احیا",
+ provider:"مؤسسه آموزشی نتاکو",
+ date:"چهارشنبه ۱۳ آبان ۱۴۰۵",
+ hours:"۰۸:۰۰ الی ۱۶:۰۰",
+ venue:"سالن اجتماعات شرکت مجتمع صنایع و معادن احیاء سپاهان",
+ address:"تهران، خیابان دکتر علی شریعتی، ابتدای بلوار صبا، کوچه خلیلی، ساختمان صبا، طبقه دوم",
+ latitude:35.79473747717159,
+ longitude:51.43582501391164
+};
+
+const $=id=>document.getElementById(id);
+const screens=["intro","scenario","result","final"];
+
+const decisions={
+ repair:{
+  score:60,color:"#ffd17d",icon:"⚒",
+  title:"اقدام سریع، اما نیازمند ارزیابی!",
+  text:"اعزام سریع تیم تعمیرات مهم است، ولی ابتدا باید وضعیت ایمنی کنترل شود. تعمیر بدون بررسی علت خرابی می‌تواند خطر تکرار توقف را افزایش دهد."
+ },
+ diagnose:{
+  score:100,color:"#61e5ad",icon:"✓",
+  title:"تصمیمی هوشمندانه و نظام‌مند!",
+  text:"اولویت ایمنی، ثبت وضعیت تجهیز، بررسی هشدارها و عیب‌یابی ساختاریافته، رویکرد مناسبی برای شناخت خرابی و پیشگیری از تکرار آن است."
+ },
+ backup:{
+  score:75,color:"#49d8f6",icon:"⚙",
+  title:"توجه درست به تداوم تولید!",
+  text:"تجهیز جایگزین می‌تواند توقف را کاهش دهد، به شرط آنکه ظرفیت فنی، ایمنی و شرایط انتقال بار تأیید شود. علت خرابی اولیه نیز باید بررسی شود."
+ }
+};
+
+let page=0;
+let soundEnabled=true;
+let volume=.65;
+let audio=null;
+let scoreFrame=0;
+let transitionToken=0;
+let previousFocus=null;
+const activeOscillators=new Set();
+
+// ساخت چرخ‌دنده
+function gearPath(teeth,outer,inner){
+ const points=[];
+ for(let i=0;i<teeth*4;i++){
+  const angle=i/(teeth*4)*Math.PI*2;
+  const r=(i%4===1||i%4===2)?outer:inner;
+  points.push((i===0?"M":"L")+
+   (Math.cos(angle)*r).toFixed(2)+" "+
+   (Math.sin(angle)*r).toFixed(2));
+ }
+ return points.join(" ")+" Z";
+}
+
+$("gearPath").setAttribute("d",gearPath(12,91,75));
+$("smallPath").setAttribute("d",gearPath(9,44,34));
+
+function showScreen(index){
+ transitionToken++;
+ cancelAnimationFrame(scoreFrame);
+ page=index;
+ screens.forEach((id,i)=>{
+  const active=i===index;
+  $(id).classList.toggle("active",active);
+  $(id).setAttribute("aria-hidden",String(!active));
+ });
+ document.querySelectorAll("#progress span").forEach((el,i)=>{
+  el.classList.toggle("active",i<=index);
+ });
+ window.scrollTo({top:0,behavior:"instant"});
+}
+
+// موتور صوتی
+function audioContext(){
+ if(!soundEnabled||volume===0)return null;
+ try{
+  const AudioClass=window.AudioContext||window.webkitAudioContext;
+  if(!AudioClass)return null;
+  if(!audio)audio=new AudioClass();
+  if(audio.state==="suspended")audio.resume().catch(()=>{});
+  return audio;
+ }catch{return null;}
+}
+
+function stopSounds(){
+ for(const oscillator of activeOscillators){
+  try{oscillator.stop();}catch{}
+ }
+ activeOscillators.clear();
+}
+
+function beep(freq,duration,delay=0,type="sine",level=.09){
+ const ctx=audioContext();
+ if(!ctx)return;
+ const oscillator=ctx.createOscillator();
+ const gain=ctx.createGain();
+ const start=ctx.currentTime+delay;
+ const loudness=Math.max(.0001,Math.min(.12,level*volume));
+
+ oscillator.type=type;
+ oscillator.frequency.setValueAtTime(freq,start);
+ gain.gain.setValueAtTime(.0001,start);
+ gain.gain.linearRampToValueAtTime(loudness,start+.035);
+ gain.gain.setValueAtTime(loudness*.65,start+duration*.58);
+ gain.gain.exponentialRampToValueAtTime(.0001,start+duration);
+
+ oscillator.connect(gain);
+ gain.connect(ctx.destination);
+ oscillator.onended=()=>activeOscillators.delete(oscillator);
+ activeOscillators.add(oscillator);
+ oscillator.start(start);
+ oscillator.stop(start+duration+.015);
+}
+
+function startupSound(){
+ beep(600,.16,0,"sine",.08);
+ beep(800,.18,.2,"sine",.09);
+ beep(1000,.20,.42,"triangle",.09);
+ beep(1250,.32,.68,"sine",.075);
+}
+
+function alarmSound(){
+ beep(760,.18,0,"triangle",.08);
+ beep(560,.18,.28,"triangle",.08);
+ beep(760,.22,.56,"triangle",.08);
+}
+
+function successSound(){
+ beep(523,.14,0,"sine",.07);
+ beep(659,.14,.17,"sine",.07);
+ beep(784,.28,.34,"sine",.08);
+}
+
+$("soundBtn").addEventListener("click",()=>{
+ soundEnabled=!soundEnabled;
+ if(!soundEnabled)stopSounds();
+ $("soundBtn").textContent=soundEnabled?"🔊 صدا روشن":"🔇 صدا خاموش";
+ if(soundEnabled)beep(800,.12);
+});
+
+$("volume").addEventListener("input",event=>{
+ volume=Number(event.target.value)/100;
+ $("volumeValue").textContent=
+  Number(event.target.value).toLocaleString("fa-IR")+"٪";
+ if(volume===0)stopSounds();
+});
+
+$("volume").addEventListener("change",()=>beep(850,.14));
+
+$("startBtn").addEventListener("click",()=>{
+ const button=$("startBtn");
+ if(button.disabled)return;
+ startupSound();
+ button.disabled=true;
+ button.textContent="در حال راه‌اندازی پنل کنترل...";
+ const ticket=++transitionToken;
+
+ setTimeout(()=>{
+  if(ticket!==transitionToken)return;
+  showScreen(1);
+  alarmSound();
+  button.disabled=false;
+  button.textContent="فعال‌سازی سیستم و شروع چالش ←";
+ },1550);
+});
+
+// نتیجه انتخاب
+function animateScore(target,color){
+ const ring=$("scoreRing");
+ const output=$("scoreValue");
+ const beginning=performance.now();
+ ring.style.setProperty("--scoreColor",color);
+ ring.style.setProperty("--angle","0deg");
+
+ function update(now){
+  if(page!==2)return;
+  const progress=Math.min((now-beginning)/1050,1);
+  const score=Math.round(target*(1-Math.pow(1-progress,3)));
+  output.textContent=score.toLocaleString("fa-IR");
+  ring.style.setProperty("--angle",(score*3.6)+"deg");
+  if(progress<1)scoreFrame=requestAnimationFrame(update);
+ }
+ scoreFrame=requestAnimationFrame(update);
+}
+
+document.querySelectorAll("[data-choice]").forEach(button=>{
+ button.addEventListener("click",()=>{
+  const choice=decisions[button.dataset.choice];
+  if(!choice)return;
+  $("resultIcon").textContent=choice.icon;
+  $("resultIcon").style.color=choice.color;
+  $("resultTitle").textContent=choice.title;
+  $("feedback").textContent=choice.text;
+  showScreen(2);
+  animateScore(choice.score,choice.color);
+  if(choice.score===100)successSound();
+  else beep(500,.18);
+ });
+});
+
+$("nextBtn").addEventListener("click",()=>{
+ showScreen(3);
+ successSound();
+});
+$("retryBtn").addEventListener("click",()=>showScreen(1));
+$("replayBtn").addEventListener("click",()=>showScreen(0));
+
+// نقشه‌ها
+function mapLinks(){
+ const lat=CONFIG.latitude;
+ const lng=CONFIG.longitude;
+ const coords=`${lat},${lng}`;
+ return {
+  google:"https://www.google.com/maps/dir/?api=1&destination="+
+   encodeURIComponent(coords)+"&travelmode=driving",
+  neshan:"https://neshan.org/maps/share/"+coords,
+  balad:"https://balad.ir/location?latitude="+lat+
+   "&longitude="+lng+"&zoom=17"
+ };
+}
+
+function openMap(){
+ previousFocus=document.activeElement;
+ const links=mapLinks();
+ $("googleLink").href=links.google;
+ $("neshanLink").href=links.neshan;
+ $("baladLink").href=links.balad;
+ $("mapModal").classList.add("open");
+ $("mapModal").setAttribute("aria-hidden","false");
+ $("closeMap").focus();
+}
+
+function closeMap(){
+ $("mapModal").classList.remove("open");
+ $("mapModal").setAttribute("aria-hidden","true");
+ if(previousFocus&&previousFocus.focus)previousFocus.focus();
+}
+
+$("mapBtn").addEventListener("click",openMap);
+$("closeMap").addEventListener("click",closeMap);
+$("mapModal").addEventListener("click",e=>{
+ if(e.target===$("mapModal"))closeMap();
+});
+document.addEventListener("keydown",e=>{
+ if(!$("mapModal").classList.contains("open"))return;
+ if(e.key==="Escape"){closeMap();return;}
+ if(e.key!=="Tab")return;
+ const items=Array.from(
+  $("mapModal").querySelectorAll('a[href],button:not([disabled])')
+ );
+ const first=items[0],last=items[items.length-1];
+ if(e.shiftKey&&document.activeElement===first){
+  e.preventDefault();last.focus();
+ }else if(!e.shiftKey&&document.activeElement===last){
+  e.preventDefault();first.focus();
+ }
+});
+
+// کپی و اشتراک‌گذاری
+async function copyText(text){
+ try{
+  if(navigator.clipboard&&window.isSecureContext){
+   await navigator.clipboard.writeText(text);
+   return true;
+  }
+ }catch{}
+ try{
+  const input=document.createElement("textarea");
+  input.value=text;
+  input.style.position="fixed";
+  input.style.opacity="0";
+  document.body.appendChild(input);
+  input.select();
+  const ok=document.execCommand("copy");
+  input.remove();
+  return ok;
+ }catch{return false;}
+}
+
+$("copyLocation").addEventListener("click",async()=>{
+ const text=[
+  CONFIG.address,CONFIG.venue,
+  `${CONFIG.latitude},${CONFIG.longitude}`
+ ].join("\n");
+ alert(await copyText(text)
+  ?"نشانی و مختصات کپی شد."
+  :"کپی خودکار امکان‌پذیر نیست.");
+});
+
+$("shareBtn").addEventListener("click",async()=>{
+ const hosted=["https:","http:"].includes(location.protocol);
+ const lines=[
+  "⚙ دعوت‌نامه دوره نگهداری و تعمیرات",
+  "",
+  "به سفارش: "+CONFIG.client,
+  "مجری آموزشی: "+CONFIG.provider,
+  "",
+  "📅 "+CONFIG.date,
+  "🕗 ساعت "+CONFIG.hours,
+  "📍 "+CONFIG.address,
+  CONFIG.venue,
+  "",
+  "یک چالش تعاملی صنعتی در انتظار شماست!"
+ ];
+ if(hosted)lines.push("","لینک دعوت‌نامه:",location.href);
+ const text=lines.join("\n");
+
+ if(navigator.share){
+  try{
+   await navigator.share({title:CONFIG.title,text});
+   return;
+  }catch(e){
+   if(e.name==="AbortError")return;
+  }
+ }
+ alert(await copyText(text)
+  ?"متن دعوت‌نامه کپی شد."
+  :"اشتراک‌گذاری خودکار امکان‌پذیر نیست.");
+});
+
+// ========================================
+// سازنده تصویر پیش‌نمایش واتساپ
+// ========================================
+
+// سازنده فقط با افزودن ?admin=1 به انتهای لینک
+// دیده می‌شود. این یک حالت نمایشی است، نه احراز هویت.
+const params=new URLSearchParams(location.search);
+if(params.get("admin")==="1"){
+ $("adminPanel").classList.add("show");
+}
+
+function drawCover(){
+ const canvas=document.createElement("canvas");
+ canvas.width=1200;
+ canvas.height=630;
+ const c=canvas.getContext("2d");
+ if(!c)throw new Error("Canvas پشتیبانی نمی‌شود.");
+
+ const bg=c.createLinearGradient(0,0,1200,630);
+ bg.addColorStop(0,"#061522");
+ bg.addColorStop(.55,"#143951");
+ bg.addColorStop(1,"#061522");
+ c.fillStyle=bg;
+ c.fillRect(0,0,1200,630);
+
+ // شبکه صنعتی
+ c.lineWidth=1;
+ c.strokeStyle="rgba(85,195,225,.10)";
+ for(let x=0;x<1200;x+=35){
+  c.beginPath();c.moveTo(x,0);c.lineTo(x,630);c.stroke();
+ }
+ for(let y=0;y<630;y+=35){
+  c.beginPath();c.moveTo(0,y);c.lineTo(1200,y);c.stroke();
+ }
+
+ // هاله پشت چرخ‌دنده
+ const glow=c.createRadialGradient(250,300,25,250,300,280);
+ glow.addColorStop(0,"rgba(56,201,245,.28)");
+ glow.addColorStop(1,"rgba(56,201,245,0)");
+ c.fillStyle=glow;
+ c.fillRect(0,0,600,630);
+
+ function gear(cx,cy,outer,inner,teeth,fill){
+  c.save();
+  c.translate(cx,cy);
+  c.beginPath();
+  for(let i=0;i<teeth*4;i++){
+   const a=i/(teeth*4)*Math.PI*2;
+   const r=(i%4===1||i%4===2)?outer:inner;
+   const x=Math.cos(a)*r,y=Math.sin(a)*r;
+   if(i===0)c.moveTo(x,y);else c.lineTo(x,y);
+  }
+  c.closePath();
+  c.fillStyle=fill;
+  c.shadowColor="rgba(0,0,0,.7)";
+  c.shadowBlur=25;
+  c.shadowOffsetY=14;
+  c.fill();
+  c.shadowColor="transparent";
+  c.lineWidth=5;
+  c.strokeStyle="#d7f0f8";
+  c.stroke();
+  c.beginPath();
+  c.arc(0,0,outer*.38,0,Math.PI*2);
+  c.fillStyle="#0a263a";
+  c.fill();
+  c.lineWidth=9;
+  c.strokeStyle="#87c9df";
+  c.stroke();
+  c.beginPath();
+  c.arc(0,0,outer*.14,0,Math.PI*2);
+  c.fillStyle="#4bd3f5";
+  c.fill();
+  c.restore();
+ }
+
+ gear(255,315,165,134,12,"#87b3c9");
+ gear(125,465,67,53,9,"#b6dbe9");
+
+ // محتوای فارسی
+ c.direction="rtl";
+ c.textAlign="right";
+ c.textBaseline="middle";
+ const font="'Tahoma',Arial,sans-serif";
+
+ c.fillStyle="#54d7f5";
+ c.font="bold 22px Arial";
+ c.fillText("NETACO  |  INDUSTRIAL EXPERIENCE",1120,83);
+
+ c.fillStyle="#ffffff";
+ c.font=`bold 56px ${font}`;
+ c.fillText("دوره نگهداری",1120,190);
+ c.fillText("و تعمیرات",1120,265);
+
+ c.fillStyle="#ffd17d";
+ c.font=`bold 26px ${font}`;
+ c.fillText("به سفارش شرکت مجتمع نگین معادن احیا",1120,354);
+
+ c.fillStyle="#dceef7";
+ c.font=`23px ${font}`;
+ c.fillText("مجری آموزشی: مؤسسه آموزشی نتاکو",1120,408);
+
+ c.fillStyle="#b7d4e4";
+ c.font=`bold 25px ${font}`;
+ c.fillText("چهارشنبه ۱۳ آبان ۱۴۰۵",1120,488);
+ c.fillText("ساعت ۰۸:۰۰ تا ۱۶:۰۰",1120,532);
+
+ c.strokeStyle="#f0b95b";
+ c.lineWidth=3;
+ c.beginPath();
+ c.moveTo(60,579);c.lineTo(1140,579);c.stroke();
+
+ c.direction="ltr";
+ c.fillStyle="#8eacbe";
+ c.textAlign="center";
+ c.font="17px Arial";
+ c.fillText("MAINTENANCE & RELIABILITY",600,608);
+
+ return canvas;
+}
+
+$("downloadCover").addEventListener("click",()=>{
+ try{
+  const canvas=drawCover();
+  const link=document.createElement("a");
+  link.download="cover.jpg";
+  link.href=canvas.toDataURL("image/jpeg",.83);
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  $("adminStatus").textContent=
+   "تصویر ساخته شد. فایل cover.jpg را کنار index.html بارگذاری کنید.";
+ }catch(error){
+  $("adminStatus").textContent=
+   "ساخت تصویر ممکن نشد: "+error.message;
+ }
+});
+
+showScreen(0);
+</script>
+</body>
+</html>
